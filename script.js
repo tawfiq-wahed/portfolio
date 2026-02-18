@@ -5,7 +5,7 @@ var navMenu = document.getElementById("nav-menu");
 menu.onclick = function() {
  navMenu.classList.toggle("active");
 };
-var link = navMenu.getElementsByTagName("a");
+var navlinks = navMenu.getElementsByTagName("a");
 for (var i = 0; i < navLinks.length; i++) {
     navLinks[i].onclick = function(e) {
         e.preventDefault(); 
